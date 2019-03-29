@@ -265,6 +265,7 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
+  /*calling on the button mixin*/
   width: 100px;
   height: 50px;
   border-radius: 5px;
@@ -289,6 +290,7 @@ footer {
 .home .walk .walk-img {
   width: 100%;
   margin-left: 4%;
+  /*Media query for walk image*/
 }
 .home .walk .walk-img img {
   width: 100%;
