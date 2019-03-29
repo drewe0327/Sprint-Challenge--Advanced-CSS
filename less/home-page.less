@@ -66,6 +66,7 @@
     display: flex;
     justify-content: center;
 
+    /*meida query for the walk section*/
     @media @mobile {
       display:flex;
       flex-direction: column-reverse;
@@ -83,9 +84,7 @@
         margin-bottom: 26px;
       }
 
-      @media @mobile{
-        width:100%
-      }
+   
 
       .btn {
         .button(@wild-sand; @btn-bg-color);
@@ -96,6 +95,12 @@
         align-items: center;
         font-size: 1.5rem;
 
+        /*hover for sign up button*/
+        &:hover {
+          background-color: @sea-shell;
+          color:@btn-bg-color;
+        }
+
         @media @mobile {
           width: 100%;
           margin-bottom:10px;
@@ -104,7 +109,7 @@
     }
 
     .walk-img {
-      width: 46%;
+      width:100%;
       margin-left: 4%;
       
       img {
@@ -117,6 +122,8 @@
         width: 100%;
         margin-left: 0;
       }
+
+
     }
   }
 }// home

@@ -185,6 +185,9 @@ nav a {
   font-size: 1.8rem;
   padding-left: 20px;
 }
+nav a:hover {
+  color: white;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -243,6 +246,7 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+  /*meida query for the walk section*/
 }
 @media (max-width: 500px) {
   .home .walk {
@@ -260,11 +264,6 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-@media (max-width: 500px) {
-  .home .walk .walk-text {
-    width: 100%;
-  }
-}
 .home .walk .walk-text .btn {
   width: 100px;
   height: 50px;
@@ -275,6 +274,11 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+  /*hover for sign up button*/
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F1F1F1;
+  color: #22283A;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -283,7 +287,7 @@ footer {
   }
 }
 .home .walk .walk-img {
-  width: 46%;
+  width: 100%;
   margin-left: 4%;
 }
 .home .walk .walk-img img {
